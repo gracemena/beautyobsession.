@@ -16,18 +16,22 @@ body{
 }
 
 #hero{
-	background-image: url("file:///C|/Users/Grace Mena/Downloads/Beauty Obsession/Beauty Obsession/img/heroimgpp.png");
+	background-image: url("../img/heroimgpp.png");
 	padding: 16%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 80%;
 	text-align: center;
+	align-items: center;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1.titulos{
 	font-size: 36px;
 	width: 450px;
-	height: 60px;
+	height: 45px;
 	background-color: rgba(255,255,255,0.51);
 	align-content: center;
 }
@@ -492,34 +496,13 @@ input[type="email"] {
     color: white;
 }
 
-.footer-left,
-.footer-right {
-    width: 48%; 
-    float: left; 
+.footer-right{
+	text-align: right;
 }
 
-.footer-right {
-    text-align: right; 
-	
+.footer-left{
+	text-align: left;
 }
-
-.footer-left p,
-.footer-right a {
-    margin: 10px 0; 
-	display: block;
-}
-
-.footer-right a {
-    color: white;
-    text-decoration: none;
-	margin-right: 230px;
-	
-}
-
-.footer-right a:hover {
-    text-decoration: underline;
-}
-
 .social-title {
     font-size: 18px;
     font-weight: bold;
